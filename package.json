@@ -1,0 +1,14 @@
+{
+  "name": "beerapi",
+  "version": "1.0.0",
+  "description": "A simple API for tracking beer inventory",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
