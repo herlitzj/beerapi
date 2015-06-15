@@ -4,7 +4,7 @@ var port = process.env.PORT || 8080;
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.json({ message: "You are dangerously low on beer." });
+    res.json({ message: "You are dangerously low on BEER." });
 });
 
 app.use('/api', router);
